@@ -29,6 +29,7 @@ def clean_text(text):
     text=text.lower()
     text=re.sub(r'\d+','',text) #remove numbers
     text=re.sub(r'[^\w\s]',' ',text)#removes punctuation
+    text = re.sub(r'_+', ' ', text)        
     text=re.sub(r'\s+',' ',text).strip()#removes multiple spaces
     return text
 
