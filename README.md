@@ -47,13 +47,13 @@ The dataset contains thousands of real-world medical transcription samples acros
 * Text preprocessing and cleaning
 * TF-IDF feature extraction
 * Feature inspection and sparsity analysis
-
-### Upcoming
-
 * Train/Test split
 * Model training
 * Model evaluation
 * Hyperparameter tuning
+
+### Upcoming
+
 * LLM integration for patient-friendly summaries
 * Streamlit web application
 * Deployment
