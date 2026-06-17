@@ -1,0 +1,10 @@
+*.csv
+__pycache__/
+*.pyc
+.env
+explore_data.py
+preprocess.py
+features.py
+train_model.py
+save_model.py
+generate_summary.py
